@@ -16,7 +16,7 @@ def search():
   results = get_points_of_interest(query)
   return render_template('results.html', results=results)
 
-@app.route('/location/<int:locationid>')
+@app.route('/location/<locationid>')
 def details(locationid):
   headers = {"accept": "application/json"}
   response2 = requests.get(
