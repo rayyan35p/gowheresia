@@ -1,7 +1,7 @@
 # gowheresia
 A web-app made with python to search about places of interests near you
 
-###How to Run:
+##How to Run:
 1. install and extract repo
 2. install Python 3 from https://www.python.org/downloads/
 3. install VS Code
