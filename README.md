@@ -21,5 +21,6 @@ Aslam (aslam.singapore@gmail.com)
 Benson Ang (bensonang36@gmail.com)
 Rayyan Ismail (rayyanis0908@gmail.com)
 Joel Ang (tzejiannn@gmail.com)
+TripAdvisor's Location API
 
 Done during LifeHack 2023, a hackathon organized by NUS Computing Club.
