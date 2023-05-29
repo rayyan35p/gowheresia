@@ -2,9 +2,11 @@ from flask import Flask, render_template, request
 import requests
 import json
 
+# REPLACE WITH YOUR API KEY HERE, AND ONLY HERE!
 MY_API_KEY = "Enter your API Key here"
-API_KEY = MY_API_KEY
 
+
+API_KEY = MY_API_KEY
 
 class Location():
   API_KEY = MY_API_KEY
