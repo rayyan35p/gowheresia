@@ -92,10 +92,3 @@ def get_points_of_interest(location):
                             location_address)
     list_of_locations.append(new_location)
   return list_of_locations
-
-
-location = input('enter location')
-list = get_points_of_interest(location)
-print(list[0].getName())
-print(list[0].locationid)
-list[0].getImage()
