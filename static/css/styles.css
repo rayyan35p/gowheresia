@@ -1,0 +1,26 @@
+/* theme color.*/
+.bg-orange{  
+    background-color:#fca103;
+}
+
+.bg-yellow{
+  background-color:#fcc203;
+}
+
+/*text color (red)*/
+.text-orange {
+    color:#fc6f03;
+    font-family: Garamond, serif;
+}
+
+.bg-dark-blue {
+    background-color: #030438;
+}
+
+.text-vibrant-blue {
+    color: #0b0b81;
+}
+
+.bg-yellow-green {
+    background-color: #bebe11;
+}

@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<!-- show information-->
+<div class="container-fluid">
+    <div class="row p-5">
+        <!--image card-->
+        <div class="col-3 mt-3">
+            <div class="card">
+                <img src={{location.getImage()}} alt="poster" class="">
+            </div>
+            
+        </div>
+        <!-- info card-->
+        <div class="col-6">
+            <div class="card bg-yellow-green" style="width: 50rem; ">
+                <div class="card-body text-dark">
+                  <h1 class="card-title h1">{{location.name}}</h1>
+                  <h6 class="card-subtitle mb-2 pt-5">{{location.address}}</h6>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<!-- Reviews-->
+<div class="container-fluid" >
+    <div class="card bg-yellow-green text-vibrant-blue ps-5 pe-5 pt-5">
+        <h1 class="text-dark">
+            Reviews
+        </h1>
+    </div>
+    <div class="card bg-yellow-green text-vibrant-blue ps-5 pe-5">
+        <p class="text-dark">
+            {{location.getReviews()}}
+        </p>
+    </div>
+</div>
+
+{% endblock %}
