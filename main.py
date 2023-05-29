@@ -73,7 +73,6 @@ def get_points_of_interest(location):
   location_longitude = response2.get('longitude')
   location_latitude = response2.get('latitude')
   latLong = location_latitude + "," + location_longitude
-  print(latLong)
 
   response3 = requests.get(
     'https://api.content.tripadvisor.com/api/v1/location/nearby_search',
